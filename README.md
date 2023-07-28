@@ -29,9 +29,28 @@ The minus wire, or the rightmost wire connects to the ground pin, #20
 
 ![PXL_20230714_173857459](https://github.com/tiffanymeow/raspberryGLAM/assets/57841282/13aca788-d7ba-48fb-bd81-328bd749870b)
 
+###  Connecting the Camera
+
+The camera is relatively simple to connect, as there is only one ribbon cable needed.  Simply insert the ribbon cable blue side down into the camera and secure the catch.  Do the same to the port marker 'Camera' on the Raspberry Pi.  The blue side should be oriented facing the keyboard and mouse USB ports.  
+
 ##  Magic Mirror
 
+See the [Magic Mirror website] for further documentation: (https://magicmirror.builders/)
+
 ##  Temperature and Humidity Alert
+You will need to install the driver for the sensor.
+``` pip3 install adafruit-circuitpython-dht```
+
+Download the sensor.py file to your raspberry pi.  You will then need to create a new virtual enviornment with the following commands:
+
+```
+mkdir project-name && cd project-name
+python3 -m venv .venv
+source .venv/bin/activate
+pip3 install adafruit-circuitpython-dht
+
+```
+
 
 ##  Facial Recognition
 
