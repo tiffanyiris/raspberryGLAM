@@ -1,8 +1,8 @@
-# raspberryGLAM
+# RaspberryGLAM
 
 
-## Hardware Setup
-### Setting up the TouchScreen:
+##  Hardware Setup
+###  Setting up the TouchScreen:
 1.  Use the long ribbon cable and connect it blue side down to the touchscreen in the port on the left side.
     a. To connect it, carefully pull up on the black plastic piece (the catch) on the bottom of the port, and then slide the ribbon cable in (blue side down)
     b. To finish inserting the ribbon, secure the catch by carefully pushing it back in.  You should hear a small click noise.  Be careful as it does take a bit of pressure to secure the catch, make sure not to bend the ribbon cable.
@@ -22,16 +22,16 @@ The black wire connect to Ground, #6 on the diagram
 
 ![GPIO](https://github.com/tiffanymeow/raspberryGLAM/assets/57841282/c5a65f32-be13-4ea4-b2ac-a8d1d0bfe7ce)
 
-### Setting up the Sensor:
+###  Setting up the Sensor:
 The wire connected to the plus, the leftmost wire, connects to the 3v3 power at pin #17
 The middle wire connects to GPIO 22, directly above it #15
 The minus wire, or the rightmost wire connects to the ground pin, #20
 
 ![PXL_20230714_173857459](https://github.com/tiffanymeow/raspberryGLAM/assets/57841282/13aca788-d7ba-48fb-bd81-328bd749870b)
 
-## Magic Mirror
+##  Magic Mirror
 
-## Temperature and Humidity Alert
+##  Temperature and Humidity Alert
 
-## Facial Recognition
+##  Facial Recognition
 
