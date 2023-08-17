@@ -60,4 +60,8 @@ pip3 install adafruit-circuitpython-dht
 ```
 Download the sensor.py file onto your raspberry pi.  If everything is connected properly it should run.  Look at the comments to change any thresholds.
 
+## Face Detection
 
+First we'll need to download openCV.  This process is long and complicated, follow [this guide](https://pyimagesearch.com/2017/09/04/raspbian-stretch-install-opencv-3-python-on-your-raspberry-pi/) and make sure to be careful as you go. 
+
+Now that openCV is installed the rest is fairly simple.  Download the faceDetection.py and the xml file from this github.  Source and enter your virtual enviornment with ``` source ~/.profile ``` and ``` workon cv ```.  Make sure you are in your virtual enviorment, and have fun with the facial detection!
