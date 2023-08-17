@@ -60,5 +60,4 @@ pip3 install adafruit-circuitpython-dht
 ```
 Download the sensor.py file onto your raspberry pi.  If everything is connected properly it should run.  Look at the comments to change any thresholds.
 
-##  Facial Recognition
 
