@@ -35,7 +35,7 @@ The camera is relatively simple to connect, as there is only one ribbon cable ne
 
 ##  Kiosk Mode
 
-See this tutorial [Kiosk Mode] for a how to write the scripts and adjust your pi settings.  (https://pimylifeup.com/raspberry-pi-kiosk/)
+See this tutorial [Kiosk Mode](https://pimylifeup.com/raspberry-pi-kiosk/) for a how to write the scripts and adjust your pi settings.  
 Replace the website with 'localhost' to run the localhost website.  
 
 For hosting a website locally:
