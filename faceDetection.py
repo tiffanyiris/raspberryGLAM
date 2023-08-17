@@ -36,7 +36,7 @@ while True:
 
     cv2.imshow('video',img)
 
-    k = cv2.waitKey(30) & 0xff
+    k = cv2.waitKey(70) & 0xff
     if k == 27: # press 'ESC' to quit
         break
 
