@@ -43,7 +43,7 @@ For hosting a website locally:
 sudo apt-get install apache2 apache2-doc apache2-utils
 sudo apt-get install libapache2-mod-php php php-pear php-xcache 
 ```
-To see if it works, open a browser on your pi and type in 'localhost' in the search bar.  It should open up with a page that says, "It works!".  Follow the instructions on the website to replace that html file with your own personal website.  To get to the /var/ directory, use ``` cd / ``` to get to the root directory.  
+To see if it works, open a browser on your pi and type in 'localhost' in the search bar.  It should open up with a page that says, "It works!".  Replace that html file with your own personal website.  To get to the /var/ directory, use ``` cd / ``` to get to the root directory.  Then drop your folder with your website in the directory and you should be good to good.  ``` reboot ``` your pi and enjoy your new mini kiosk. 
 
 ##  Temperature and Humidity Alert
 You will need to install the driver for the sensor.
