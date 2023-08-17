@@ -11,8 +11,8 @@ import cv2
 faceCascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 cap = cv2.VideoCapture(0)
 #cap.set(3640)
-cap.set(cv2.CAP_PROP_FRAME_WIDTH, 3640) # set Width
-cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 4480) # set Height
+#cap.set(cv2.CAP_PROP_FRAME_WIDTH, 3640) # set Width
+#cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 4480) # set Height
 #cap.set(4480)
 
 while True:
