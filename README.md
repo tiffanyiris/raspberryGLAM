@@ -33,9 +33,17 @@ The minus wire, or the rightmost wire connects to the ground pin, #20
 
 The camera is relatively simple to connect, as there is only one ribbon cable needed.  Simply insert the ribbon cable blue side down into the camera and secure the catch.  Do the same to the port marker 'Camera' on the Raspberry Pi.  The blue side should be oriented facing the keyboard and mouse USB ports.  
 
-##  Magic Mirror
+##  Kiosk Mode
 
-See the [Magic Mirror website] for further documentation: (https://magicmirror.builders/)
+See this tutorial [Kiosk Mode] for a how to write the scripts and adjust your pi settings.  (https://pimylifeup.com/raspberry-pi-kiosk/)
+Replace the website with 'localhost' to run the localhost website.  
+
+For hosting a website locally:
+``` 
+sudo apt-get install apache2 apache2-doc apache2-utils
+sudo apt-get install libapache2-mod-php php php-pear php-xcache 
+```
+To see if it works, open a browser on your pi and type in 'localhost' in the search bar.  It should open up with a page that says, "It works!".  Follow the instructions on the website to replace that html file with your own personal website.  To get to the /var/ directory, use ``` cd / ``` to get to the root directory.  
 
 ##  Temperature and Humidity Alert
 You will need to install the driver for the sensor.
@@ -50,7 +58,7 @@ source .venv/bin/activate
 pip3 install adafruit-circuitpython-dht
 
 ```
-
+Download the sensor.py file onto your raspberry pi.  If everything is connected properly it should run.  Look at the comments to change any thresholds.
 
 ##  Facial Recognition
 
