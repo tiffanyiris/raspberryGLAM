@@ -254,4 +254,3 @@ Enjoy the quiz!
 ## **Author**
 
 Shubh Patel
-```
