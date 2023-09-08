@@ -250,8 +250,8 @@ python3 mcq_quiz.py
 
 
 Enjoy the quiz!
-```
 
 ## **Author**
 
 Shubh Patel
+```
