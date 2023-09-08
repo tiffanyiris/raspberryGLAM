@@ -12,7 +12,7 @@ Before running this application, make sure you have the following:
 
 ## **Usage**
 
-1. **Import** the necessary modules:
+1. **Import the necessary modules**:
 
    ```python
    import tkinter as tk
@@ -24,7 +24,7 @@ Define functions for displaying questions, checking answers, and moving to the n
 
 Create the main window and configure its appearance:
 
-root = tk.Tk()
+```root = tk.Tk()
 root.title("Quiz App")
 root.geometry("600x500")
 style = Style(theme="flatly")
@@ -39,7 +39,7 @@ Show the first question.
 
 Start the main event loop:
 
-root.mainloop()
+```root.mainloop()
 
 How It Works
 Questions and choices are defined in an external quiz_data.py file, which you can customize to create your quiz.
@@ -53,4 +53,7 @@ Once all questions are answered, a message box displays the final score, and the
 Feel free to modify the quiz_data.py file to create your quiz content. Enjoy using and customizing this quiz app!
 
 Author
-[Your Name]
+Shubh Patel
+
+
+
