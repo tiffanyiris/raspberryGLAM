@@ -35,8 +35,8 @@ The camera is relatively simple to connect, as there is only one ribbon cable ne
 
 ##  Kiosk Mode
 
-See this tutorial [Kiosk Mode](https://pimylifeup.com/raspberry-pi-kiosk/) for a how to write the scripts and adjust your pi settings.  
-Replace the website with 'localhost' to run the localhost website.  
+Based on this tutorial [Kiosk Mode](https://pimylifeup.com/raspberry-pi-kiosk/) for a how to write the scripts and adjust your pi settings.  
+Download the file kiosk.sh to your pi.  
 
 For hosting a website locally:
 ``` 
@@ -58,6 +58,7 @@ source .venv/bin/activate
 pip3 install adafruit-circuitpython-dht
 ```
 Download the sensor.py file onto your raspberry pi.  If everything is connected properly it should run.  Look at the comments to change any thresholds.
+
 
 ## Face Detection
 
