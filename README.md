@@ -36,7 +36,15 @@ The camera is relatively simple to connect, as there is only one ribbon cable ne
 ##  Kiosk Mode
 
 Based on this tutorial [Kiosk Mode](https://pimylifeup.com/raspberry-pi-kiosk/) for a how to write the scripts and adjust your pi settings.  
-Download the file kiosk.sh to your pi.  
+
+Install xdotool with the command: ```sudo apt install xdotool unclutter sed```
+Download the file kiosk.sh to your pi.  If you would like an in depth explanation of the individual lines of code, the tutorial above goes more into depth.  
+
+If autologin is not enabled on your pi, ```sudo raspi-confi``` will pull up the configuration guide.  Go to System Options and select the Auto Login option.  
+
+We will need to make a service file.  Open your favorite text editor in terminal, nano or vim, but nano is recommended for beginners.  The file must be in this specific location in your directory, run this command, then copy paste the kiosk.service file from github into the file.  ```sudo nano /lib/systemd/system/kiosk.service```  
+
+MAKE SURE to replace instances of 'pi' with your own username.  
 
 For hosting a website locally:
 ``` 
