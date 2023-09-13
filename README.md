@@ -70,6 +70,8 @@ Download the sensor.py file onto your raspberry pi.  If everything is connected 
 
 ## Face Detection
 
-First we'll need to download openCV.  This process is long and complicated, follow [this guide](https://pyimagesearch.com/2017/09/04/raspbian-stretch-install-opencv-3-python-on-your-raspberry-pi/) and make sure to be careful as you go. 
+First we'll need to download openCV.  This process is long and complicated, and is expected to take around a few hours.  Follow [this guide](https://pyimagesearch.com/2017/09/04/raspbian-stretch-install-opencv-3-python-on-your-raspberry-pi/) and make sure to be careful as you go.  While the guide specifies for Raspberry Stretch on a Pi 3, it will work on a Raspberry Pi 4 with Raspbian installed.  
 
-Now that openCV is installed the rest is fairly simple.  Download the faceDetection.py and the xml file from this github.  Source and enter your virtual enviornment with ``` source ~/.profile ``` and ``` workon cv ```.  Make sure you are in your virtual enviorment, and have fun with the facial detection!
+A few things need to be done.  The filesystem needs to be expanded to maximize available space to fit openCV as it is quite large.  There are quite a few dependencies to install as well, and running the commands does take some time.  If there are any errors saying something is not found, try ```pip install <name>``` or ```sudo apt install <name>```.
+
+Now that openCV is installed the rest is fairly simple.  Download the faceDetection.py and the xml file from this github.  Make sure they are in the same directory.  Source and enter your virtual enviornment with ``` source ~/.profile ``` and ``` workon cv ```.  Make sure you are in your virtual enviorment, and have fun with the facial detection!
