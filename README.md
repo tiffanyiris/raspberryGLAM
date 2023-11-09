@@ -27,7 +27,7 @@ The wire connected to the plus, the leftmost wire, connects to the 3v3 power at 
 The middle wire connects to GPIO 22, directly above it #15
 The minus wire, or the rightmost wire connects to the ground pin, #20
 
-![config](/pictures/pinconfig.jpg)
+![config](/pictures/pinconfig2.jpg)
 ###  Connecting the Camera
 
 The camera is relatively simple to connect, as there is only one ribbon cable needed.  Simply insert the ribbon cable blue side down into the camera and secure the catch.  Do the same to the port marker 'Camera' on the Raspberry Pi.  The blue side should be oriented facing the keyboard and mouse USB ports.  
