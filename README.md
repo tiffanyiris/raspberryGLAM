@@ -20,7 +20,6 @@ The green wire connects to GPIO 2, #3 on the diagram
 The yellow wire connects to GPIO 3, #5 on the diagram
 The black wire connect to Ground, #6 on the diagram
 
-![GPIO](https://github.com/tiffanymeow/raspberryGLAM/assets/57841282/c5a65f32-be13-4ea4-b2ac-a8d1d0bfe7ce)
 ![config](/pictures/gpio_pinout.jpg)
 
 ###  Setting up the Sensor:
