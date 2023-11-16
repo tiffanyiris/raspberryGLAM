@@ -73,4 +73,9 @@ First we'll need to download openCV.  This process is long and complicated, and 
 
 A few things need to be done.  The filesystem needs to be expanded to maximize available space to fit openCV as it is quite large.  There are quite a few dependencies to install as well, and running the commands does take some time.  If there are any errors saying something is not found, try ```pip install <name>``` or ```sudo apt install <name>```.
 
-Now that openCV is installed the rest is fairly simple.  Download the faceDetection.py and the xml file from this github.  Make sure they are in the same directory.  Source and enter your virtual enviornment with ``` source ~/.profile ``` and ``` workon cv ```.  Make sure you are in your virtual enviorment, and have fun with the facial detection!
+Now that openCV is installed the rest is fairly simple.  Download the faceDetection.py and the xml file from this github.  Make sure they are in the same directory.  Source and enter your virtual enviornment with ``` source ~/.profile ``` and ``` workon cv ```.  Make sure you are in your virtual enviorment, and have fun with the face detection!
+
+### Alternative Approach
+
+The facedetection.py file can be used as an alternative approach using picamera2 that worked without compiling OpenCV, but with the current binary packages, on a Raspberry Pi 4. 
+The script has to be executed outside of a virtual environment (which causes problems with picamera2 and libcamera), all necessary packages have to be installed systemwide.
